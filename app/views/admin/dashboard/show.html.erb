@@ -1,2 +1,21 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<section class="admin-dashboard">
+  <header class="page-header">
+    <h1>Admin &raquo; Dashboard</h1>
+  </header>
+  <div class="list-group">
+    <a href="/admin/products" class="list-group-item">
+      <span class="badge">
+        <%= @total_products %>
+      </span>
+      Total Products
+    </a>
+    <a 
+    # *link here* /admin/categories is not a directory (maybe link to /admin/categories/1 )
+    class="list-group-item">
+      <span class="badge">
+        <%= @total_categories %>
+      </span>
+      Total Categories
+    </a>
+  </div>
+</section> 
