@@ -1,6 +1,6 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2. It simulates being put in a workplace we pre-written code and asked to make bug fixes and add features to the project. 
+A mini e-commerce application built with Rails 4.2. It simulates being put in a workplace with pre-written code and asked to make bug fixes and add features to the project. 
 
 ![screenshot of home page](https://github.com/roshan0926/jungle-rails/blob/master/docs/main-page.png?raw=true)
 ![screenshot of an image details page](https://github.com/roshan0926/jungle-rails/blob/master/docs/item-detail-page.png?raw=true)
